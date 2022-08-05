@@ -8,44 +8,13 @@ legend = [
     ("Reset", "rst"),
 ]
 
+
+
 left_header = [
     [
-        ("1", "pin"),
-        ("vRef", "pwr")
-    ],
-    [
-        ("3", "pin"),
-        ("GND", "gnd"),
-    ],
-    [
-        ("5", "pin"),
-        ("GND", "gnd"),
-    ],
-    [
-        ("7", "pin"),
-        ("Key", "nc"),
-    ],
-    [
-        ("9", "pin"),
-        ("GND", "gnd"),
-    ],
-]
-
-right_header = [
-    [
-        ("2", "pin"),
-        ("SWDIO", "swd"),
-        ("TMS", "jtag"),
-    ],
-    [
-        ("4", "pin"),
-        ("SWDCLK", "swd"),
-        ("TCK", "jtag"),
-    ],
-    [
-        ("6", "pin"),
-        ("TRACESWO", "swd"),
-        ("TDO", "jtag"),
+        ("10", "pin"),
+        ("nRst", "rst"),
+        ("nRst", "rst"),
     ],
     [
         ("8", "pin"),
@@ -53,8 +22,42 @@ right_header = [
         ("TDI", "jtag"),
     ],
     [
-        ("10", "pin"),
-        ("nRst", "rst")
+        ("6", "pin"),
+        ("TRACESWO", "swd"),
+        ("TDO", "jtag"),
+    ],
+    [
+        ("4", "pin"),
+        ("SWDCLK", "swd"),
+        ("TCK", "jtag"),
+    ],
+    [
+        ("2", "pin"),
+        ("SWDIO", "swd"),
+        ("TMS", "jtag"),
+    ],
+]
+
+right_header = [
+    [
+        ("9", "pin"),
+        ("GND", "gnd"),
+    ],
+    [
+        ("7", "pin"),
+        ("Key", "nc"),
+    ],
+    [
+        ("5", "pin"),
+        ("GND", "gnd"),
+    ],
+    [
+        ("3", "pin"),
+        ("GND", "gnd"),
+    ],
+    [
+        ("1", "pin"),
+        ("vRef", "pwr")
     ],
 ]
 

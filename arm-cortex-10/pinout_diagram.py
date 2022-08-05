@@ -10,11 +10,8 @@ from pinout.components.legend import Legend
 
 import data
 
-#diagram = Diagram(1200, 675, "diagram")
-diagram = Diagram_2Rows(1024, 576, 440, "diagram")
-#diagram.add_stylesheet("styles_auto.css", True)
+diagram = Diagram_2Rows(800, 550, 300, "diagram")
 diagram.add_stylesheet("styles.css", embed=True)
-# content = diagram.add(Panel(width=1200, height=675, tag="panel__content"))
 
 # panel_graphic = content.add(
 #     Panel(
@@ -24,12 +21,12 @@ diagram.add_stylesheet("styles.css", embed=True)
 #     )
 # )
 
-graphic = diagram.panel_01.add(Group(400, 100))
+graphic = diagram.panel_01.add(Group(350, 50))
 
-hardware = graphic.add(Image("10-pin-keyed.svg", dpi=72, width=2.4, height=6.4, embed=True))
+hardware = graphic.add(Image("10-pin-keyed.svg", width=102, height=192, embed=True))
 
-hardware.add_coord("p1",  x=110, y=110)
-hardware.add_coord("p2",  x=210, y=110)
+hardware.add_coord("p1",  x= 36, y= 36)
+hardware.add_coord("p2",  x= 66, y= 36)
 hardware.add_coord("p3",  x=0.12, y=0.22)
 hardware.add_coord("p4",  x=0.22, y=0.22)
 hardware.add_coord("p5",  x=0.12, y=0.32)
@@ -38,7 +35,7 @@ hardware.add_coord("p7",  x=0.12, y=0.42)
 hardware.add_coord("p8",  x=0.22, y=0.42)
 hardware.add_coord("p9",  x=0.12, y=0.52)
 hardware.add_coord("p10", x=0.22, y=0.52)
-hardware.add_coord("pin_pitch_v", x=0, y=100)
+hardware.add_coord("pin_pitch_v", x=0, y=30)
 
 graphic.add(
     PinLabelGroup(
@@ -90,8 +87,8 @@ diagram.panel_02.add(
 legend = diagram.panel_02.add(
     Legend(
         data.legend,
-        x=700,
+        x=630,
         y=8,
-        max_height=132,
+        max_height=200,
     )
 )
