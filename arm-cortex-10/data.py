@@ -1,11 +1,11 @@
 legend = [
     ("SWD", "swd"),
     ("JTAG", "jtag"),
-    ("Ground", "gnd"),
-    ("Pin", "pin"),
-    ("Power", "pwr"),
-    ("Not Connected", "nc"),
     ("Reset", "rst"),
+    ("Pin Number", "pin"),
+    ("Power", "pwr"),
+    ("Ground", "gnd"),
+    ("Not Connected", "nc"),
 ]
 
 
