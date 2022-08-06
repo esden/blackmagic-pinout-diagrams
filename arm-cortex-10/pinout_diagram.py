@@ -23,7 +23,7 @@ diagram.add_stylesheet("styles.css", embed=True)
 
 graphic = diagram.panel_01.add(Group(320, 50))
 
-hardware = graphic.add(Image("10-pin-keyed.svg", width=180, height=210, embed=True))
+hardware = graphic.add(Image("../models/10-pin-keyed.svg", width=180, height=210, embed=True))
 
 hardware.add_coord("p1",  x= 75, y= 45)
 hardware.add_coord("p2",  x=105, y= 45)
