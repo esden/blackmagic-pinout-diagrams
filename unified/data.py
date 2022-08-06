@@ -79,7 +79,7 @@ JTAG/SWD Debug connector. This pinout is supported by setting two solder
 jumpers on the Black Magic Probe V2.3.
 
 NOTE: The TX/RX directionality is from the perspective of the Debugger. On the
-Target (DUT) side these pins are swapped and pin 14 is RX and 13 is TX.
+Target (DUT) side these pins are swapped and pin 7 is RX and 9 is TX.
 
 NOTE: The SPI mapping is valid when SPIFlashProgrammer firmware is loaded.
 
