@@ -25,22 +25,22 @@ graphic = diagram.panel_01.add(Group(320, 50))
 
 hardware = graphic.add(Image("../models/10-pin-keyed.svg", width=180, height=210, embed=True))
 
-hardware.add_coord("p1",  x= 75, y= 45)
-hardware.add_coord("p2",  x=105, y= 45)
-hardware.add_coord("p3",  x= 75, y= 75)
-hardware.add_coord("p4",  x=105, y= 75)
-hardware.add_coord("p5",  x= 75, y=105)
-hardware.add_coord("p6",  x=105, y=105)
-hardware.add_coord("p7",  x= 75, y=135)
-hardware.add_coord("p8",  x=105, y=135)
-hardware.add_coord("p9",  x= 75, y=165)
-hardware.add_coord("p10", x=105, y=165)
+hardware.add_coord("p10", x= 75, y= 45)
+hardware.add_coord("p9",  x=105, y= 45)
+hardware.add_coord("p8",  x= 75, y= 75)
+hardware.add_coord("p7",  x=105, y= 75)
+hardware.add_coord("p6",  x= 75, y=105)
+hardware.add_coord("p5",  x=105, y=105)
+hardware.add_coord("p4",  x= 75, y=135)
+hardware.add_coord("p3",  x=105, y=135)
+hardware.add_coord("p2",  x= 75, y=165)
+hardware.add_coord("p1",  x=105, y=165)
 hardware.add_coord("pin_pitch_v", x=0, y=30)
 
 graphic.add(
     PinLabelGroup(
-        x=hardware.coord("p1").x,
-        y=hardware.coord("p1").y,
+        x=hardware.coord("p10").x,
+        y=hardware.coord("p10").y,
         pin_pitch=hardware.coord("pin_pitch_v", raw=True),
         label_start=(60, 0),
         label_pitch=(0, 30),
@@ -51,8 +51,8 @@ graphic.add(
 
 graphic.add(
     PinLabelGroup(
-        x=hardware.coord("p2").x,
-        y=hardware.coord("p2").y,
+        x=hardware.coord("p9").x,
+        y=hardware.coord("p9").y,
         pin_pitch=hardware.coord("pin_pitch_v", raw=True),
         label_start=(60, 0),
         label_pitch=(0, 30),
