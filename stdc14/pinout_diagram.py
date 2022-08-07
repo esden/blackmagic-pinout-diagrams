@@ -96,3 +96,22 @@ legend = diagram.panel_02.add(
         max_height=230,
     )
 )
+
+license = diagram.panel_02.add(Group(x=20, y=200))
+
+license.add(
+    Image("../models/by-nc-sa.svg", embed=True)
+)
+
+license.add(
+    TextBlock(
+        """2022 (C) 1BitSquared &lt;info@1bitsquared.com&gt;
+        2022 (C) Piotr Esden-Tempski &lt;piotr@esden.net&gt;""",
+        x=130,
+        y=20,
+        width=100,
+        height=30,
+        line_height=18,
+        tag="panel license",
+    )
+)
