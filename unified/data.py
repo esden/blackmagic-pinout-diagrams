@@ -78,8 +78,8 @@ description = """This connector is derived from the standard ARM Cortex
 JTAG/SWD Debug connector. This pinout is supported by setting two solder
 jumpers on the Black Magic Probe V2.3.
 
-NOTE: The TX/RX directionality is from the perspective of the Debugger. On the
+<tspan class='strong'>NOTE:</tspan> The TX/RX directionality is from the perspective of the Debugger. On the
 Target (DUT) side these pins are swapped and pin 7 is RX and 9 is TX.
-NOTE: The SPI mapping is valid when SPIFlashProgrammer firmware is loaded.
-NOTE: The header is HALF PITCH! This means it is 0.05 inch (1.27 mm) pitch pin header.
+<tspan class='strong'>NOTE:</tspan> The SPI mapping is valid when SPIFlashProgrammer firmware is loaded.
+<tspan class='strong'>NOTE:</tspan> The header is HALF PITCH! This means it is 0.05 inch (1.27 mm) pitch pin header.
 """

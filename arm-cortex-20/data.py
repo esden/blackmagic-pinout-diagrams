@@ -114,5 +114,5 @@ Half of the connector is pinout compatible with the 10-Pin ARM Cortex Debug.
 This makes it easy to interoperate with debuggers using 10-Pin connectors, by
 using a 10 to 20 pin ribbon cable.
 
-NOTE: The header is HALF PITCH! This means it is 0.05 inch (1.27 mm) pitch pin header.
+<tspan class='strong'>NOTE:</tspan> The header is HALF PITCH! This means it is 0.05 inch (1.27 mm) pitch pin header.
 """

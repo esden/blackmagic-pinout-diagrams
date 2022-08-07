@@ -112,5 +112,5 @@ The SWD signal names are added for convenience keep in mind, this connector
 predates SWD standard, so targets using this connector might not support
 the SWD protocol.
 
-NOTE: The header is FULL PITCH! This means it is 0.1 inch (2.54 mm) pitch pin header.
+<tspan class='strong'>NOTE:</tspan> The header is FULL PITCH! This means it is 0.1 inch (2.54 mm) pitch pin header.
 """

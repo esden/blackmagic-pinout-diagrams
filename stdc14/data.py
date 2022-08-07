@@ -86,8 +86,7 @@ description = """This is the debug connector STMicroelectronics came up with
 pins 3-12 are the same as ARM Cortex Debug Connector. The 14pin ribbon
 will plug into the 10 Pin ARM Cortex Debug Connector for compatibility.
 
-NOTE: The TX/RX directionality is from the perspective of the Debugger. On the
+<tspan class='strong'>NOTE:</tspan> The TX/RX directionality is from the perspective of the Debugger. On the
 Target (DUT) side these pins are swapped and pin 14 is RX and 13 is TX.
-
-NOTE: The header is HALF PITCH! This means it is 0.05 inch (1.27 mm) pitch pin header.
+<tspan class='strong'>NOTE:</tspan> The header is HALF PITCH! This means it is 0.05 inch (1.27 mm) pitch pin header.
 """

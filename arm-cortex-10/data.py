@@ -65,8 +65,8 @@ right_header = [
 
 title = "<tspan class='h1'>ARM Cortex JTAG/SWD Debug Connector Pinout</tspan>"
 
-description = """This is the standard ARM Cortex JTAG/SWD Debug connector 
-used on Black Magic Probe as well as many targets. 
+description = """This is the standard ARM Cortex JTAG/SWD Debug connector
+used on Black Magic Probe as well as many targets.
 
-NOTE: The header is HALF PITCH! This means it is 0.05 inch (1.27 mm) pitch pin header.
+<tspan class='strong'>NOTE:</tspan> The header is HALF PITCH! This means it is 0.05 inch (1.27 mm) pitch pin header.
 """
